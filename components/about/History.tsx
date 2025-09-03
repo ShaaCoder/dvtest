@@ -2,27 +2,27 @@ import { Calendar, Award, Users, BookOpen } from 'lucide-react';
 
 const milestones = [
   {
-    year: '1985',
+    year: '1989',
     title: 'Foundation',
-    description: 'DV Public School was established with a vision to provide quality education',
+    description: 'DV Public School was established with a mission to provide holistic education, fostering Integrity, Truth, and Learning.',
     icon: BookOpen,
   },
   {
-    year: '1992',
+    year: '1995',
     title: 'CBSE Affiliation',
-    description: 'Received affiliation from Central Board of Secondary Education',
+    description: 'Achieved affiliation with the Central Board of Secondary Education, offering all streams up to XII.',
     icon: Award,
   },
   {
-    year: '2005',
-    title: 'Campus Expansion',
-    description: 'Expanded facilities with new buildings, laboratories, and sports complex',
+    year: '2010',
+    title: 'Modern Facilities Introduced',
+    description: 'Introduced state-of-the-art Audio-Visual, Science, and Computer Laboratories, along with a well-equipped Library.',
     icon: Users,
   },
   {
-    year: '2020',
-    title: 'Digital Transformation',
-    description: 'Implemented smart classrooms and digital learning platforms',
+    year: '2022',
+    title: 'Educational Expeditions Launched',
+    description: 'Initiated educational tours to national heritage sites like Rashtrapati Bhawan and Amrit Udyan for student enrichment.',
     icon: Calendar,
   },
 ];
@@ -36,7 +36,7 @@ export default function History() {
             Our Journey
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Four decades of educational excellence and continuous growth
+            Over three decades of educational excellence and continuous growth
           </p>
         </div>
 
@@ -81,14 +81,11 @@ export default function History() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Accreditation & Recognition</h3>
             <p className="text-gray-600 mb-6">
               DV Public School is affiliated with the Central Board of Secondary Education (CBSE) 
-              and recognized by the Department of Education, Government of India.
+              and recognized for its commitment to holistic education and a nature-friendly environment.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <span className="bg-gradient-to-r from-yellow-100 to-orange-100 text-orange-800 px-4 py-2 rounded-full font-medium">
                 CBSE Affiliated
-              </span>
-              <span className="bg-gradient-to-r from-yellow-100 to-orange-100 text-orange-800 px-4 py-2 rounded-full font-medium">
-                ISO 9001:2015 Certified
               </span>
               <span className="bg-gradient-to-r from-yellow-100 to-orange-100 text-orange-800 px-4 py-2 rounded-full font-medium">
                 Green School Certified

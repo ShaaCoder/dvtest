@@ -11,7 +11,7 @@ export default function Academics() {
   return (
     <div className="pt-20">
       <Programs />
-      <Curriculum />
+      {/* <Curriculum /> */}
       <CoCurrenticular />
     </div>
   );

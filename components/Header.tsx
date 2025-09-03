@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -46,8 +46,12 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 text-white hover:text-orange-100 transition-colors">
-            <GraduationCap className="h-8 w-8" />
-            <span className="text-xl font-bold">DV Public School</span>
+            <img
+              src="./images/dvlogo.png"
+              alt="DV Public School Logo"
+              className="h-10 w-auto object-contain"
+            />
+            <span className="text-xl font-bold hidden sm:inline">DV Public School</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -18,14 +18,14 @@ export default function ContactInfo() {
             {
               icon: MapPin,
               title: 'Address',
-              content: '123 School Road, Your City, State, India',
+              content: 'f-200, Vijay vihar Phase I, Phase 1, Pocket J, Sector 4, Rohini, Delhi, 110085',
               link: '#',
             },
             {
               icon: Phone,
               title: 'Phone',
-              content: '+91 918810524651',
-              link: 'tel:+918810524651',
+              content: '+91 07503872857',
+              link: 'tel:+9107503872857',
             },
             {
               icon: Mail,

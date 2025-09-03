@@ -10,11 +10,10 @@ export default function MapSection() {
             Located in the heart of the city with easy accessibility
           </p>
         </div>
-
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="h-96 w-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.674180118727!2d77.23092831508225!3d28.65195978241587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1635934234567!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.2076186847225!2d77.09704347550372!3d28.713340675620756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d06adc66b9d97%3A0x9edd7703a3f7bebe!2svijay%20vihar%20near%20d.v.public%20school!5e0!3m2!1sen!2sin!4v1756755470335!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -28,7 +27,7 @@ export default function MapSection() {
           <div className="p-6 bg-gradient-to-r from-yellow-100 to-orange-100">
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                123 School Road, Your City, State, India
+              f-200, Vijay vihar Phase I, Phase 1, Pocket J, Sector 4, Rohini, Delhi, 110085
               </h3>
               <p className="text-gray-600">
                 Easily accessible by public transport with parking facilities available

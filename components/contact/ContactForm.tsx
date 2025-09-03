@@ -7,6 +7,7 @@ export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    mobile: '',
     message: '',
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -21,11 +22,20 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Dummy handler - just show success message
+    
+    // Format WhatsApp message
+    const whatsappMessage = `Name: ${formData.name}%0AEmail: ${formData.email}%0AMobile: ${formData.mobile}%0AMessage: ${formData.message}`;
+    const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || ''; // Access env variable
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${whatsappMessage}`;
+
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+
+    // Show success message
     setIsSubmitted(true);
     setTimeout(() => {
       setIsSubmitted(false);
-      setFormData({ name: '', email: '', message: '' });
+      setFormData({ name: '', email: '', mobile: '', message: '' });
     }, 3000);
   };
 
@@ -86,6 +96,22 @@ export default function ContactForm() {
                     placeholder="Enter your email address"
                   />
                 </div>
+              </div>
+
+              <div>
+                <label htmlFor="mobile" className="block text-sm font-medium text-gray-700 mb-2">
+                  Mobile Number *
+                </label>
+                <input
+                  type="tel"
+                  id="mobile"
+                  name="mobile"
+                  required
+                  value={formData.mobile}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-200"
+                  placeholder="Enter your mobile number"
+                />
               </div>
               
               <div>
