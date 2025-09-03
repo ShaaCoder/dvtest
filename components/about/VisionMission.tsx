@@ -7,7 +7,7 @@ export default function VisionMission() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight">
-            About DV PUBLIC SCHOOL
+            About D.V. PUBLIC SCHOOL
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Shaping tomorrow's leaders through innovative and inclusive education
