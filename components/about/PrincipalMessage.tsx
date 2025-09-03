@@ -3,65 +3,8 @@ import React from 'react';
 export default function Messages() {
   return (
     <>
-      {/* Principal's Message Section */}
-      <section className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
-          {/* Principal's Photo */}
-          <div className="mb-8 lg:mb-0">
-            <div className="relative">
-              <img
-                src="./images/poonam mam.jpg"
-                alt="Mrs. Poonam Singh, Principal of DV Public School"
-                className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
-              />
-              <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl p-4 shadow-lg">
-                <p className="text-white font-semibold text-lg">Mrs. Poonam Singh</p>
-                <p className="text-white/90 text-sm">Principal</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Principal's Message */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Principal's Message
-            </h2>
-            
-            <div className="prose prose-lg text-gray-600 space-y-4">
-              <p className="text-lg leading-relaxed">
-                Dear Students, Parents, and Well-wishers,
-              </p>
-              
-              <p className="leading-relaxed">
-                Since its establishment, DV Public School has earned a distinguished reputation for excellence in education. Our institution is built on a foundation of exceptional infrastructure, an encouraging environment, and a dedicated faculty of highly qualified and experienced teachers.
-              </p>
-              
-              <p className="leading-relaxed">
-                We offer a vast range of core and co-curricular programs designed to foster not only academic success but also personal achievement and the holistic development of each student’s personality. Our students—girls and boys alike—are highly motivated and share a common commitment to excellence.
-              </p>
-              
-              <p className="leading-relaxed">
-                At DV Public School, we nurture individuals who are prepared to excel in all facets of life, contributing positively to society with confidence and compassion.
-              </p>
-              
-              <p className="text-lg font-medium text-gray-900 mt-6">
-                Together, let's continue this legacy of excellence.
-              </p>
-              
-              <div className="mt-8">
-                <div className="text-lg font-semibold text-orange-600">Mrs. Poonam Singh</div>
-                <div className="text-gray-600">Principal, DV Public School</div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-      {/* Chairman's Message Section */}
-      <section className="py-16 bg-gray-50">
+     {/* Chairman's Message Section */}
+     <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
             {/* Chairman's Photo */}
@@ -120,6 +63,64 @@ export default function Messages() {
           </div>
         </div>
       </section>
+      {/* Principal's Message Section */}
+      <section className="py-16 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+          {/* Principal's Photo */}
+          <div className="mb-8 lg:mb-0">
+            <div className="relative">
+              <img
+                src="./images/poonam mam.jpg"
+                alt="Mrs. Poonam Singh, Principal of DV Public School"
+                className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
+              />
+              <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl p-4 shadow-lg">
+                <p className="text-white font-semibold text-lg">Mrs. Poonam Singh</p>
+                <p className="text-white/90 text-sm">Principal</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Principal's Message */}
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Principal's Message
+            </h2>
+            
+            <div className="prose prose-lg text-gray-600 space-y-4">
+              <p className="text-lg leading-relaxed">
+                Dear Students, Parents, and Well-wishers,
+              </p>
+              
+              <p className="leading-relaxed">
+                Since its establishment, DV Public School has earned a distinguished reputation for excellence in education. Our institution is built on a foundation of exceptional infrastructure, an encouraging environment, and a dedicated faculty of highly qualified and experienced teachers.
+              </p>
+              
+              <p className="leading-relaxed">
+                We offer a vast range of core and co-curricular programs designed to foster not only academic success but also personal achievement and the holistic development of each student’s personality. Our students—girls and boys alike—are highly motivated and share a common commitment to excellence.
+              </p>
+              
+              <p className="leading-relaxed">
+                At DV Public School, we nurture individuals who are prepared to excel in all facets of life, contributing positively to society with confidence and compassion.
+              </p>
+              
+              <p className="text-lg font-medium text-gray-900 mt-6">
+                Together, let's continue this legacy of excellence.
+              </p>
+              
+              <div className="mt-8">
+                <div className="text-lg font-semibold text-orange-600">Mrs. Poonam Singh</div>
+                <div className="text-gray-600">Principal, DV Public School</div>
+                <div className="text-sm text-gray-500 mt-1">M.Ed., Ph.D. in Education</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     
     </>
   );
 }
