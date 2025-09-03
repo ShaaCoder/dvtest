@@ -55,7 +55,7 @@ export default function Messages() {
                 
                 <div className="mt-8">
                   <div className="text-lg font-semibold text-indigo-600">Mr. Thakur D.P Singh</div>
-                  <div className="text-gray-600">Chairman, DV Public School</div>
+                  <div className="text-gray-600">Chairman, D.V. Public School</div>
                   {/* <div className="text-sm text-gray-500 mt-1">B.Tech., MBA</div> */}
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function Messages() {
               
               <div className="mt-8">
                 <div className="text-lg font-semibold text-orange-600">Mrs. Poonam Singh</div>
-                <div className="text-gray-600">Principal, DV Public School</div>
+                <div className="text-gray-600">Principal, D.V. Public School</div>
                 <div className="text-sm text-gray-500 mt-1">M.Ed., Ph.D. in Education</div>
               </div>
             </div>
